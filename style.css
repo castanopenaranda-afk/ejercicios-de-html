@@ -1,0 +1,473 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: cambria, cochin, georgia, times, "times new roman", serif;
+    border-style: double;
+    border-color: white;
+    border-width: 20px;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+.indice {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.indice ul {
+  list-style: none;      
+  padding: 0;
+  margin: 0;
+  display: flex;         
+  gap: 1rem; 
+  background-color: black;
+  
+}
+
+.indice li a {
+  color: white; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;         
+  text-decoration: none; 
+  padding: 0.5rem 1rem;  
+  display: block;        
+}
+
+#about {
+    color: black;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    background-color:white;
+    border-left: 6px solid brown;
+}
+
+#descripcion {
+    color: black;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 6px solid brown;
+}
+
+#galeria_signos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color:black;
+    border-radius: 20px;
+    max-width: 1500px; /* Limitar el ancho máximo */
+    margin: 40px auto;
+}
+
+#galeria_signos .imagen {
+    flex: 1 1 250px;
+    max-width: 250px;
+    text-align: center;
+    background-color: rgb(29, 65, 210);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#galeria_signos .imagen:hover {
+    transform: scale(1.8);
+}
+
+#galeria_signos .imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+#galeria_videos {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(36, 179, 20);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+#galeria_videos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.videos ul {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    gap : 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.videos li {
+    margin: 10px 0;
+}
+
+.videos a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.videos a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+.video_galeria {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#simbolos_descripcion{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 6px solid brown;
+}
+
+
+
+#Servicios{
+    color: black;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 6px solid brown;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --color-primario: #3498db;
+  --color-secundario: #1d1281;
+  --color-fondo: #158caa;
+  --color-tarjeta: #15a133;
+  --espaciado: 15px;
+  --radio-borde: 8px;
+  --salto-linea:15;
+}
+
+.contenido {
+  display: flex;
+  
+  justify-content: center;
+  background-color: var(--color-fondo);
+  gap: var(--espaciado);
+}
+
+#Planes_de_Disney {
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+#Planes_de_Disney .tarjeta{
+    width: 100%;
+    max-width: 300px;
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+
+}
+
+#Planes_de_Disney .header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  color: white;
+  padding: var(--espaciado);
+}
+
+#Planes_de_Disney .cuer-tarjeta{
+    font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding: var(--espaciado);
+  margin-top: auto;
+}
+
+#Planes_de_Disney .footer{
+    background-color: rgb(95, 245, 183);
+    color: rgb(80, 3, 3);
+    text-align: center;
+    padding: var(--espaciado);
+    margin-top: auto;
+}
+
+#Planes_de_netflix {
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+#Planes_de_netflix .tarjeta{
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(245, 0, 0);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#Planes_de_netflix .header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  color: rgb(50, 21, 214);
+  padding: var(--espaciado);
+}
+
+#Planes_de_netflix .cuer-tarjeta{
+    font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding: var(--espaciado);
+  margin-top: auto;
+}
+
+#Planes_de_netflix .footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 40, 40);
+    text-align: center;
+    padding: var(--espaciado);
+    margin-top: auto;
+}
+
+
+#Planes_hbo_max{
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+#Planes_hbo_max .tarjeta{
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(146, 159, 154);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#Planes_hbo_max .header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  color: rgb(50, 21, 214);
+  padding: var(--espaciado);
+}
+
+#Planes_hbo_max .cuer-tarjeta{
+    font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding: var(--espaciado);
+  margin-top: auto;
+}
+
+#Planes_hbo_max .footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 40, 40);
+    text-align: center;
+    padding: var(--espaciado);
+    margin-top: auto;
+}
+
+
+
+
+
+#Planes_amazon_prime{
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+#Planes_amazon_prime .tarjeta{
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(43, 0, 255);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#Planes_amazon_prime .header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  color: rgb(34, 21, 214);
+  padding: var(--espaciado);
+}
+
+#Planes_amazon_prime .cuer-tarjeta{
+    font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding: var(--espaciado);
+  margin-top: auto;
+}
+
+#Planes_amazon_prime .footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 193, 117);
+    text-align: center;
+    padding: var(--espaciado);
+    margin-top: auto;
+}
+
+
+
+
+#Planes_win_play{
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+
+#Planes_win_play .tarjeta{
+    width: 100%;
+    max-width: 300px;
+    background-color: orangered;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#Planes_win_play .header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  color: rgb(50, 21, 214);
+  padding: var(--espaciado);
+}
+
+#Planes_win_play .cuer-tarjeta{
+    font-size: 16px;
+  color: white;
+  text-align: justify;
+  padding: var(--espaciado);
+  margin-top: auto;
+}
+
+#Planes_win_play .footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(75, 40, 40);
+    text-align: center;
+    padding: var(--espaciado);
+    margin-top: auto;
+}
+
+
+.tarjeta{
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(0, 188, 245);
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primario);
+  color: rgb(17, 184, 120);
+  padding: var(--espaciado);
+}
+
+.cuer-tarjeta{
+    font-size: 16px;
+  color: rgb(84, 20, 187);
+  text-align: justify;
+  padding: var(--espaciado);
+  margin-top: auto;
+}
+
+.footer{
+    background-color: rgb(211, 20, 115);
+    color: rgb(75, 40, 40);
+    text-align: center;
+    padding: var(--espaciado);
+    margin-top: auto;
+}
+
+
+
+#contacto{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin: 20px;
+    padding: 15px;
+    background-color: orangered;
+    max-width: 900px; /* Limitar el ancho máximo */
+    margin: 40px auto;
+    border-radius: 100px;
+}
+
+
+footer {
+    padding: 2px 2px 2px 2px;
+    h1 {
+        color: rgb(221, 225, 0);
+        /* Color de letra */
+        font-family: arial;
+        /* Tipo de letra */
+        font-size: 300%;
+        /* Tamaño de letra */
+        text-align: center;
+        /* Alineación del texto */
+        background-color: rgb(128, 4, 245);
+        /* Color de fondo de texto*/
+        border-color: orangered;
+        border-style: double;
+        border-color: blue;
+    }
+}
+
